@@ -1,2 +1,5 @@
-FILES={"main":"example.exe", "readme":"example.package.readme", "file", "example.package"}
-RUNABLE=FILES["main"]
+FILES = {
+    "main": "example.exe",
+    "file": "example.package"
+}
+RUNNABLE = FILES["main"]
